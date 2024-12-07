@@ -19,6 +19,7 @@
 body {
   background: var(--background-color);
   color: var(--default-color);
+  top: 0!important;
 }
 
 h1,
