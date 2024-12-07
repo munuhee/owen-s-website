@@ -19,7 +19,10 @@
 body {
   background: var(--background-color);
   color: var(--default-color);
-  top: 0!important;
+}
+
+body > .skiptranslate {
+  display: none;
 }
 
 h1,
@@ -1497,6 +1500,10 @@ section {
 .goog-te-gadget span {
   display: none !important;
 }
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+  } 
 
 .goog-te-gadget {
   font-size: 0px !important;
