@@ -19,6 +19,8 @@
 body {
   background: var(--background-color);
   color: var(--default-color);
+  padding: 0px;
+  margin: 0;
 }
 
 body > .skiptranslate {
@@ -201,6 +203,7 @@ section,
 .header .logo img {
   max-height: 80px;
   margin-right: 6px;
+  padding: 5px;
 }
 
 .header .logo h1 {
