@@ -1793,3 +1793,42 @@ Page: Products
     border-radius: 0;
   }
 }
+
+/* ------------------------------
+--------------Services-----------
+-------------------------------*/
+.text-muted {
+  font-size: 1.1rem;
+  color: #607d8b;
+}
+
+.card {
+  background: var(--surface-color2);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card h5 {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.row.g-4 {
+  row-gap: 2rem;
+}
